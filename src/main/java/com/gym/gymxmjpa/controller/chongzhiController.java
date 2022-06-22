@@ -68,7 +68,7 @@ public class chongzhiController {
         return "WEB-INF/jsp/ShouRuTongji";
     }
 
-    @RequestMapping("/jin3")
+    @RequestMapping("/jin4")
     public String jin3(){
         return "WEB-INF/jsp/ShouRuTongji";
     }
