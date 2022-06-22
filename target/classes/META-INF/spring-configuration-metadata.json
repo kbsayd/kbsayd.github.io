@@ -1,0 +1,39 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.gym.gymxmjpa.config.ValidateCodeProperties",
+      "name": "validatecode.info",
+      "type": "com.gym.gymxmjpa.config.ValidateCodeProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.gym.gymxmjpa.config.ValidateCodeProperties",
+      "defaultValue": 0,
+      "name": "validatecode.info.code-height",
+      "description": "验证码的高",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.gym.gymxmjpa.config.ValidateCodeProperties",
+      "defaultValue": 0,
+      "name": "validatecode.info.code-line-size",
+      "description": "验证码的干扰线数量",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.gym.gymxmjpa.config.ValidateCodeProperties",
+      "name": "validatecode.info.code-random-string",
+      "description": "验证码词典",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.gym.gymxmjpa.config.ValidateCodeProperties",
+      "defaultValue": 0,
+      "name": "validatecode.info.code-width",
+      "description": "验证码的宽",
+      "type": "java.lang.Integer"
+    }
+  ]
+}
