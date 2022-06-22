@@ -28,9 +28,11 @@ public class Chongzhi {
   private long money;
   private long ssmoney;
   private long zlmoney;
+
   @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss",timezone="GMT+8")
+
   private java.sql.Timestamp date;
-/*  private long czjine;*/
+
   private String beizhu;
   private long czStatic;
 
