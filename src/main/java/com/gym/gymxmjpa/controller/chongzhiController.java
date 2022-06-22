@@ -68,7 +68,10 @@ public class chongzhiController {
         return "WEB-INF/jsp/ShouRuTongji";
     }
 
-
+    @RequestMapping("/jin3")
+    public String jin3(){
+        return "WEB-INF/jsp/ShouRuTongji";
+    }
     /**
      * @Description: 会员余额充值
      */
